@@ -1,7 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-
-	import PageNotFound from '$lib/PageNotFound.svelte';
+	import Errors from '$lib/Errors.svelte';
 </script>
 
-<PageNotFound msg={$page.error?.message} code={$page.status} url={$page.url} />
+<Errors msg={$page.error?.message} code={$page.status} url={$page.url} />
