@@ -1,7 +1,8 @@
 <header>
 	<nav>
 		<a href="/">Home</a>
-		<a href="/logout">Logout</a>
+		<a href="/signup">Signup</a>
+		<a href="/login">Login</a>
 	</nav>
 </header>
 

@@ -1,7 +1,5 @@
 <script lang="ts">
-	import Footer from './Footer.svelte';
 	import Head from './Head.svelte';
-	import Header from './Header.svelte';
 
 	export let msg;
 	export let code;
@@ -9,7 +7,6 @@
 </script>
 
 <Head title={msg} />
-<Header />
 
 <main>
 	<section>
@@ -18,8 +15,6 @@
 		<p class="url">{url}</p>
 	</section>
 </main>
-
-<Footer />
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
@@ -42,7 +37,6 @@
 	}
 
 	p.url {
-		display: italic;
 		color: grey;
 	}
 </style>
